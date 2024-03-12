@@ -39,23 +39,25 @@ public class BookShelves {
 	}
 	@Then("top three Bookshelves data will be stored in excel")
 	public void top_three_bookshelves_data_will_be_stored_in_excel() throws InterruptedException, IOException {
+	 
+	 Thread.sleep(2000);
 	 BS.print_BookshelvesData();
 	 Thread.sleep(2000);
 	 BS.print_BSExceldata();
-	 Thread.sleep(2000);
 	}
 	
 	//NavBar submenu
 	
 	@When("the user clicks the living button in navbar")
 	public void the_user_clicks_the_living_button_in_navbar() throws InterruptedException {
-	    BS.clickNavbutton();
-	    Thread.sleep(6000);
+	    Thread.sleep(2000);
+
+		BS.clickNavbutton();
 	}
 	@Then("print the list of submenu under Living Storage Category in excel")
 	public void print_the_list_of_submenu_under_living_storage_category_in_excel() throws IOException, InterruptedException {
 	    BS.printNavExceldata();
-	    Thread.sleep(6000);
+	    Thread.sleep(2000);
 	    BaseClass.getLogger().info("Printing data in the Excel");
 	}
 

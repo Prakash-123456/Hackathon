@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">15 methods, 2 failed,  1 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_SelectItems" class="method navigator-link" hash-for-method="displayNavBar_items">displayNavBar_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_SelectItems" class="method navigator-link" hash-for-method="print_data">print_data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_SelectItems" class="method navigator-link" hash-for-method="printNavBar_items">printNavBar_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,27 +152,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_SelectItems" class="method navigator-link" hash-for-method="displayNavBar_items">displayNavBar_items</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_003_GiftCard" class="method navigator-link" hash-for-method="enterAmount_Date">enterAmount_Date</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_003_GiftCard" class="method navigator-link" hash-for-method="enterDetails(naveen, naveen221gmail.com, 9876543211, mohan, mohan511gmail.com, 9856782200, Tamil Nau, Chennai, 60...)">enterDetails(naveen, naveen221gmail.com, 9876543211, mohan, mohan511gmail.com, 9856782200, Tamil Nau, Chennai, 60...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_SelectItems" class="method navigator-link" hash-for-method="printNavBar_items">printNavBar_items</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_SelectItems" class="method navigator-link" hash-for-method="print_data">print_data</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -189,6 +207,84 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_002_SelectItems</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayNavBar_items">
+                  </a> <!-- displayNavBar_items -->
+                  <span class="method-name">displayNavBar_items</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;topnav_itemname&quot;&gt;...&lt;/span&gt; is not clickable at point (369, 21). Other element would receive the click: &lt;span class=&quot;results-count&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=120.0.6099.130)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ded6654e6553faeb1e1174ef70058107, clickElement {id=4254F5AC04EAB6335CA67FBD015A8F99_element_196}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303863\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50021}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.140.126.227:4444/se..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (ded6654e6553faeb1e1174ef70058107)] -&gt; xpath: //li[@class=&apos;topnav_item livingunit&apos;]/span]
+Session ID: ded6654e6553faeb1e1174ef70058107
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.click(Unknown Source)
+	at pageObjects.BookShelvesPage.clickNavbutton(BookShelvesPage.java:154)
+	at testCases.TC_002_SelectItems.displayNavBar_items(TC_002_SelectItems.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="print_data">
+                  </a> <!-- print_data -->
+                  <span class="method-name">print_data</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.get(Unknown Source)
+	at pageObjects.BookShelvesPage.print_BookshelvesData(BookShelvesPage.java:131)
+	at testCases.TC_002_SelectItems.print_data(TC_002_SelectItems.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC_002_SelectItems</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printNavBar_items">
+                  </a> <!-- printNavBar_items -->
+                  <span class="method-name">printNavBar_items</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_002_SelectItems.printNavBar_items()[pri:7, instance:testCases.TC_002_SelectItems@534a5a98] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -280,27 +376,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="displayNavBar_items">
-                  </a> <!-- displayNavBar_items -->
-                  <span class="method-name">displayNavBar_items</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="printNavBar_items">
-                  </a> <!-- printNavBar_items -->
-                  <span class="method-name">printNavBar_items</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="print_data">
-                  </a> <!-- print_data -->
-                  <span class="method-name">print_data</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="selectCategory">
                   </a> <!-- selectCategory -->
                   <span class="method-name">selectCategory</span>
@@ -385,68 +460,68 @@ data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'displayGiftPage')
 data.setCell(0, 2, 'testCases.TC_003_GiftCard')
-data.setCell(0, 3, 35682);
+data.setCell(0, 3, 42943);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'printNavBar_items')
+data.setCell(1, 1, 'print_data')
 data.setCell(1, 2, 'testCases.TC_002_SelectItems')
-data.setCell(1, 3, 26342);
+data.setCell(1, 3, 30045);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'print_data')
+data.setCell(2, 1, 'select_price')
 data.setCell(2, 2, 'testCases.TC_002_SelectItems')
-data.setCell(2, 3, 18184);
+data.setCell(2, 3, 8573);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'displayNavBar_items')
-data.setCell(3, 2, 'testCases.TC_002_SelectItems')
-data.setCell(3, 3, 8241);
+data.setCell(3, 1, 'verifyValidEmail_2')
+data.setCell(3, 2, 'testCases.TC_003_GiftCard')
+data.setCell(3, 3, 7125);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'select_price')
-data.setCell(4, 2, 'testCases.TC_002_SelectItems')
-data.setCell(4, 3, 7365);
+data.setCell(4, 1, 'enterDetails')
+data.setCell(4, 2, 'testCases.TC_003_GiftCard')
+data.setCell(4, 3, 6654);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyValidEmail_2')
+data.setCell(5, 1, 'enterAmount_Date')
 data.setCell(5, 2, 'testCases.TC_003_GiftCard')
-data.setCell(5, 3, 7000);
+data.setCell(5, 3, 6114);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'enterAmount_Date')
-data.setCell(6, 2, 'testCases.TC_003_GiftCard')
-data.setCell(6, 3, 5672);
+data.setCell(6, 1, 'titleValidation')
+data.setCell(6, 2, 'testCases.TC_001_SearchBookshelves')
+data.setCell(6, 3, 4169);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'titleValidation')
-data.setCell(7, 2, 'testCases.TC_001_SearchBookshelves')
-data.setCell(7, 3, 5622);
+data.setCell(7, 1, 'selectCategory')
+data.setCell(7, 2, 'testCases.TC_002_SelectItems')
+data.setCell(7, 3, 3146);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'enterDetails')
+data.setCell(8, 1, 'verifyValidEmail')
 data.setCell(8, 2, 'testCases.TC_003_GiftCard')
-data.setCell(8, 3, 3985);
+data.setCell(8, 3, 2862);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'clickStorageButton')
 data.setCell(9, 2, 'testCases.TC_002_SelectItems')
-data.setCell(9, 3, 2321);
+data.setCell(9, 3, 2538);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'clickBirthday')
 data.setCell(10, 2, 'testCases.TC_003_GiftCard')
-data.setCell(10, 3, 2123);
+data.setCell(10, 3, 2145);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyValidEmail')
-data.setCell(11, 2, 'testCases.TC_003_GiftCard')
-data.setCell(11, 3, 1952);
+data.setCell(11, 1, 'displayNavBar_items')
+data.setCell(11, 2, 'testCases.TC_002_SelectItems')
+data.setCell(11, 3, 1290);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'selectCategory')
+data.setCell(12, 1, 'select_filter')
 data.setCell(12, 2, 'testCases.TC_002_SelectItems')
-data.setCell(12, 3, 1914);
+data.setCell(12, 3, 632);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'search')
 data.setCell(13, 2, 'testCases.TC_001_SearchBookshelves')
-data.setCell(13, 3, 1412);
+data.setCell(13, 3, 369);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'select_filter')
+data.setCell(14, 1, 'printNavBar_items')
 data.setCell(14, 2, 'testCases.TC_002_SelectItems')
-data.setCell(14, 3, 435);
+data.setCell(14, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -497,76 +572,80 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">search(Bookshelves)</span>
-                <span class="method-start">31614 ms</span>
+                <span class="method-start">87541 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">titleValidation</span>
-                <span class="method-start">34279 ms</span>
+                <span class="method-start">89005 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_002_SelectItems</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">selectCategory</span>
-                <span class="method-start">40634 ms</span>
+                <span class="method-start">93869 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">select_price</span>
-                <span class="method-start">43174 ms</span>
+                <span class="method-start">97533 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickStorageButton</span>
-                <span class="method-start">51049 ms</span>
+                <span class="method-start">106501 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">select_filter</span>
-                <span class="method-start">53907 ms</span>
+                <span class="method-start">109345 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">print_data</span>
-                <span class="method-start">54833 ms</span>
+                <span class="method-start">110297 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">displayNavBar_items</span>
-                <span class="method-start">73436 ms</span>
+                <span class="method-start">140620 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">printNavBar_items</span>
-                <span class="method-start">82064 ms</span>
+                <span class="method-start">142223 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_003_GiftCard</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">displayGiftPage</span>
-                <span class="method-start">108790 ms</span>
+                <span class="method-start">142232 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickBirthday</span>
-                <span class="method-start">145294 ms</span>
+                <span class="method-start">186136 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">enterAmount_Date</span>
-                <span class="method-start">147843 ms</span>
+                <span class="method-start">188759 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">enterDetails(naveen, naveen221gmail.com, 9876543211, mohan, mohan511gmail.com, 9856782200, Tamil Nau, Chennai, 60...)</span>
-                <span class="method-start">154185 ms</span>
+                <span class="method-start">195986 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyValidEmail(naveen221@gmail.com)</span>
-                <span class="method-start">158588 ms</span>
+                <span class="method-start">203411 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyValidEmail_2(mohan511@gmail.com)</span>
-                <span class="method-start">160938 ms</span>
+                <span class="method-start">206608 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_001_SearchBookshelves</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">168571 ms</span>
+                <span class="method-start">214645 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

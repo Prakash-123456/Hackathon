@@ -74,10 +74,12 @@ public class BookShelvesPage extends BasePage {
 
 	//verify title of the page
 	public boolean verifyTitle() {
-		String pagetitle=title.getText();
-		if(pagetitle.equalsIgnoreCase("'Bookshelves'")) {
+		String pagetitle=driver.getTitle();
+		if(pagetitle.equalsIgnoreCase("Buy Furniture Online and Get up to 50% Off | Shop Now - Urban Ladder"))
+		{
 			return true;
-		}return false;
+		}
+		return false;
 		
 	}
 	
@@ -100,7 +102,7 @@ public class BookShelvesPage extends BasePage {
 		BaseClass.explicitWait(driver,Duration.ofSeconds(10),price_slider);
 		price_slider.click();
 		Thread.sleep(2000);
-		act.dragAndDropBy(upper, -212, -29).perform();
+		act.dragAndDropBy(upper, -272, 0).perform();
 		Thread.sleep(2000);
 		
 	}
@@ -130,7 +132,7 @@ public class BookShelvesPage extends BasePage {
 			String price = details_price.get(i).getText();
 			System.out.println("");
 			System.out.println(name + " : " + price);
-			Thread.sleep(2000);
+			Thread.sleep(6000);
 		}
 	}
 
@@ -141,7 +143,7 @@ public class BookShelvesPage extends BasePage {
 			xlutil.setCellData("Sheet1", i, 0, name);
 			String price = details_price.get(i).getText();
 			xlutil.setCellData("Sheet1", i, 3, price);
-			Thread.sleep(2000);
+			Thread.sleep(6000);
 		}
 		System.out.println(" ");
 	}

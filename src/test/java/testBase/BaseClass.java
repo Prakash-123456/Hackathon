@@ -110,8 +110,7 @@ public class BaseClass {
 	
 	public static void explicitWait(WebDriver driver, Duration dur,WebElement element) {
 		WebDriverWait mywait = new WebDriverWait(driver, dur);
-		mywait.until(
-				ExpectedConditions.visibilityOf(element));
+		mywait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
 	

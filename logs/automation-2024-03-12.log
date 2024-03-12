@@ -1,0 +1,43 @@
+12:48:11.628 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+12:48:11.668 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+12:48:11.669 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
+12:48:12.030 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:48:12.032 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+12:48:12.034 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:48:12.062 [main] INFO  testCases.TC_001_SearchBookshelves - ***Verifying with Valid email **
+12:48:18.734 [main] INFO  testCases.TC_001_SearchBookshelves - *** Finished TC_003_Select Items***
+16:09:57.997 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:09:58.044 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+16:09:58.048 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:10:00.728 [main] INFO  testCases.TC_001_SearchBookshelves - *** Starting TC_001_SearchBookshelves***
+16:10:00.729 [main] INFO  testCases.TC_001_SearchBookshelves - *** Searching for Bookshelves***
+16:10:02.182 [main] INFO  testCases.TC_001_SearchBookshelves - *** Searching for Bookshelves***
+16:10:06.349 [main] INFO  testCases.TC_001_SearchBookshelves - *** Completed TC_001_SearchBookshelves***
+16:10:07.046 [main] INFO  testCases.TC_001_SearchBookshelves - *** Starting TC_002_Select Items***
+16:10:07.047 [main] INFO  testCases.TC_001_SearchBookshelves - *** Selecting Category***
+16:10:10.711 [main] INFO  testCases.TC_001_SearchBookshelves - *** Selecting price***
+16:10:19.679 [main] INFO  testCases.TC_001_SearchBookshelves - *** Clicking Storage Button***
+16:10:22.522 [main] INFO  testCases.TC_001_SearchBookshelves - *** Selecting filter***
+16:10:23.475 [main] INFO  testCases.TC_001_SearchBookshelves - *** printing Bookshelves data in Excel and Console***
+16:10:53.798 [main] INFO  testCases.TC_001_SearchBookshelves - *** Displaying Navbar items***
+16:10:55.409 [main] INFO  testCases.TC_001_SearchBookshelves - *** Starting TC_003_Select Items***
+16:10:55.410 [main] INFO  testCases.TC_001_SearchBookshelves - *** Displaying Gift items***
+16:11:39.314 [main] INFO  testCases.TC_001_SearchBookshelves - *** Clicking Birthday Button***
+16:11:41.936 [main] INFO  testCases.TC_001_SearchBookshelves - *** Clicking Birthday Button***
+16:11:48.343 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:11:48.346 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+16:11:48.349 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:11:48.431 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:11:48.434 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+16:11:48.437 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:11:48.536 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:11:48.542 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+16:11:48.545 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:11:48.714 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:11:48.718 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+16:11:48.721 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:11:48.812 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:11:48.815 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+16:11:48.817 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:11:48.898 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:11:48.900 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels

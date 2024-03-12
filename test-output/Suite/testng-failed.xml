@@ -10,8 +10,10 @@
     <classes>
       <class name="testCases.TC_002_SelectItems">
         <methods>
+          <include name="displayNavBar_items"/>
           <include name="teardown"/>
           <include name="select_filter"/>
+          <include name="printNavBar_items"/>
           <include name="setup"/>
           <include name="print_data"/>
         </methods>

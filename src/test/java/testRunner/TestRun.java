@@ -13,7 +13,6 @@ import io.cucumber.junit.CucumberOptions;
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
         dryRun=false,
         publish=true,
-//		tags="@sanity and not @regression" ,
 		monochrome=true)
 public class TestRun
 

@@ -56,6 +56,7 @@ public class GiftCards {
 	@When("the user enters invalid To_email, error should be saved in excel")
 	public void the_user_enters_invalid_to_email_error_should_be_saved_in_excel() throws IOException, InterruptedException {
 	    GC.To_validation();
+	    Thread.sleep(2000);
 	}
 	
 	@When("the user should enter To_correct email")

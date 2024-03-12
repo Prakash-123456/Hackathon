@@ -108,7 +108,7 @@ public class ExcelUtility {
 	}
 	
 	
-	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
+	/*public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
 	{
 		fi=new FileInputStream(path);
 		workbook=new XSSFWorkbook(fi);
@@ -148,7 +148,7 @@ public class ExcelUtility {
 		workbook.close();
 		fi.close();
 		fo.close();
-	}
+	}*/
 	
 }
 

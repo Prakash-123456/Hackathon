@@ -14,7 +14,7 @@ public class BasePage {
 	
 	public BasePage(WebDriver driver) {
 		
-		this.driver =driver;
+		this.driver =driver;//Inside the constructor, the this keyword is used to refer to the current object.
 		PageFactory.initElements(driver, this);
 	}
 }

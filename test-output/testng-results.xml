@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="19" passed="15" failed="0" skipped="0">
+<testng-results ignored="4" total="19" passed="12" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-01T09:36:57 IST" name="Suite" finished-at="2024-03-01T09:39:49 IST" duration-ms="171125">
+  <suite started-at="2024-03-12T16:08:31 IST" name="Suite" finished-at="2024-03-12T16:12:14 IST" duration-ms="222641">
     <groups>
     </groups>
-    <test started-at="2024-03-01T09:36:57 IST" name="Test" finished-at="2024-03-01T09:39:49 IST" duration-ms="171125">
+    <test started-at="2024-03-12T16:08:31 IST" name="Test" finished-at="2024-03-12T16:12:14 IST" duration-ms="222641">
       <class name="testCases.TC_003_GiftCard">
-        <test-method signature="displayGiftPage()[pri:1, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-01T09:38:47 IST" name="displayGiftPage" finished-at="2024-03-01T09:39:23 IST" duration-ms="35682" status="PASS">
+        <test-method signature="displayGiftPage()[pri:1, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-12T16:10:55 IST" name="displayGiftPage" finished-at="2024-03-12T16:11:38 IST" duration-ms="42943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayGiftPage -->
-        <test-method signature="clickBirthday()[pri:2, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-01T09:39:24 IST" name="clickBirthday" finished-at="2024-03-01T09:39:26 IST" duration-ms="2123" status="PASS">
+        <test-method signature="clickBirthday()[pri:2, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-12T16:11:39 IST" name="clickBirthday" finished-at="2024-03-12T16:11:41 IST" duration-ms="2145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickBirthday -->
-        <test-method signature="enterAmount_Date()[pri:3, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-01T09:39:26 IST" name="enterAmount_Date" finished-at="2024-03-01T09:39:32 IST" duration-ms="5672" status="PASS">
+        <test-method signature="enterAmount_Date()[pri:3, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-12T16:11:41 IST" name="enterAmount_Date" finished-at="2024-03-12T16:11:48 IST" duration-ms="6114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterAmount_Date -->
-        <test-method signature="enterDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-01T09:39:33 IST" name="enterDetails" data-provider="GiftCardData" finished-at="2024-03-01T09:39:37 IST" duration-ms="3985" status="PASS">
+        <test-method signature="enterDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-12T16:11:49 IST" name="enterDetails" data-provider="GiftCardData" finished-at="2024-03-12T16:11:55 IST" duration-ms="6654" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterDetails -->
-        <test-method signature="verifyValidEmail(java.lang.String)[pri:5, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-01T09:39:37 IST" name="verifyValidEmail" data-provider="crctData" finished-at="2024-03-01T09:39:39 IST" duration-ms="1952" status="PASS">
+        <test-method signature="verifyValidEmail(java.lang.String)[pri:5, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-12T16:11:56 IST" name="verifyValidEmail" data-provider="crctData" finished-at="2024-03-12T16:11:59 IST" duration-ms="2862" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidEmail -->
-        <test-method signature="verifyValidEmail_2(java.lang.String)[pri:6, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-01T09:39:40 IST" name="verifyValidEmail_2" data-provider="crctData_2" finished-at="2024-03-01T09:39:47 IST" duration-ms="7000" status="PASS">
+        <test-method signature="verifyValidEmail_2(java.lang.String)[pri:6, instance:testCases.TC_003_GiftCard@4f80542f]" started-at="2024-03-12T16:11:59 IST" name="verifyValidEmail_2" data-provider="crctData_2" finished-at="2024-03-12T16:12:06 IST" duration-ms="7125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
         </test-method> <!-- verifyValidEmail_2 -->
       </class> <!-- testCases.TC_003_GiftCard -->
       <class name="testCases.TC_001_SearchBookshelves">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-01T09:36:59 IST" name="setup" finished-at="2024-03-01T09:37:27 IST" duration-ms="28048" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-12T16:08:33 IST" name="setup" finished-at="2024-03-12T16:09:56 IST" duration-ms="83816" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="search(java.lang.String)[pri:1, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-01T09:37:30 IST" name="search" data-provider="search_data" finished-at="2024-03-01T09:37:32 IST" duration-ms="1412" status="PASS">
+        <test-method signature="search(java.lang.String)[pri:1, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-12T16:10:00 IST" name="search" data-provider="search_data" finished-at="2024-03-12T16:10:01 IST" duration-ms="369" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,41 +116,193 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method signature="titleValidation()[pri:2, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-01T09:37:33 IST" name="titleValidation" finished-at="2024-03-01T09:37:39 IST" duration-ms="5622" status="PASS">
+        <test-method signature="titleValidation()[pri:2, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-12T16:10:02 IST" name="titleValidation" finished-at="2024-03-12T16:10:06 IST" duration-ms="4169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-01T09:39:47 IST" name="teardown" finished-at="2024-03-01T09:39:49 IST" duration-ms="1370" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_SearchBookshelves@273e7444]" started-at="2024-03-12T16:12:07 IST" name="teardown" finished-at="2024-03-12T16:12:14 IST" duration-ms="6728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_001_SearchBookshelves -->
       <class name="testCases.TC_002_SelectItems">
-        <test-method signature="selectCategory()[pri:1, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-01T09:37:39 IST" name="selectCategory" finished-at="2024-03-01T09:37:41 IST" duration-ms="1914" status="PASS">
+        <test-method signature="selectCategory()[pri:1, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-12T16:10:07 IST" name="selectCategory" finished-at="2024-03-12T16:10:10 IST" duration-ms="3146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCategory -->
-        <test-method signature="select_price()[pri:2, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-01T09:37:42 IST" name="select_price" finished-at="2024-03-01T09:37:49 IST" duration-ms="7365" status="PASS">
+        <test-method signature="select_price()[pri:2, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-12T16:10:10 IST" name="select_price" finished-at="2024-03-12T16:10:19 IST" duration-ms="8573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select_price -->
-        <test-method signature="clickStorageButton()[pri:3, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-01T09:37:50 IST" name="clickStorageButton" finished-at="2024-03-01T09:37:52 IST" duration-ms="2321" status="PASS">
+        <test-method signature="clickStorageButton()[pri:3, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-12T16:10:19 IST" name="clickStorageButton" finished-at="2024-03-12T16:10:22 IST" duration-ms="2538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickStorageButton -->
-        <test-method signature="select_filter()[pri:4, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-01T09:37:53 IST" name="select_filter" finished-at="2024-03-01T09:37:53 IST" duration-ms="435" status="PASS">
+        <test-method signature="select_filter()[pri:4, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-12T16:10:22 IST" name="select_filter" finished-at="2024-03-12T16:10:23 IST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select_filter -->
-        <test-method signature="print_data()[pri:5, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-01T09:37:53 IST" name="print_data" finished-at="2024-03-01T09:38:12 IST" depends-on-methods="testCases.TC_002_SelectItems.select_filter" duration-ms="18184" status="PASS">
+        <test-method signature="print_data()[pri:5, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-12T16:10:23 IST" name="print_data" finished-at="2024-03-12T16:10:53 IST" depends-on-methods="testCases.TC_002_SelectItems.select_filter" duration-ms="30045" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:361)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy51.get(Unknown Source)
+at pageObjects.BookShelvesPage.print_BookshelvesData(BookShelvesPage.java:131)
+at testCases.TC_002_SelectItems.print_data(TC_002_SelectItems.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- print_data -->
-        <test-method signature="displayNavBar_items()[pri:6, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-01T09:38:12 IST" name="displayNavBar_items" finished-at="2024-03-01T09:38:20 IST" duration-ms="8241" status="PASS">
+        <test-method signature="displayNavBar_items()[pri:6, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-12T16:10:53 IST" name="displayNavBar_items" finished-at="2024-03-12T16:10:55 IST" duration-ms="1290" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="topnav_itemname">...</span> is not clickable at point (369, 21). Other element would receive the click: <span class="results-count">...</span>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ded6654e6553faeb1e1174ef70058107, clickElement {id=4254F5AC04EAB6335CA67FBD015A8F99_element_196}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303863\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50021}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.140.126.227:4444/se..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (ded6654e6553faeb1e1174ef70058107)] -> xpath: //li[@class='topnav_item livingunit']/span]
+Session ID: ded6654e6553faeb1e1174ef70058107]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="topnav_itemname">...</span> is not clickable at point (369, 21). Other element would receive the click: <span class="results-count">...</span>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ded6654e6553faeb1e1174ef70058107, clickElement {id=4254F5AC04EAB6335CA67FBD015A8F99_element_196}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303863\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50021}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.140.126.227:4444/se..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (ded6654e6553faeb1e1174ef70058107)] -> xpath: //li[@class='topnav_item livingunit']/span]
+Session ID: ded6654e6553faeb1e1174ef70058107
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy50.click(Unknown Source)
+at pageObjects.BookShelvesPage.clickNavbutton(BookShelvesPage.java:154)
+at testCases.TC_002_SelectItems.displayNavBar_items(TC_002_SelectItems.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayNavBar_items -->
-        <test-method signature="printNavBar_items()[pri:7, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-01T09:38:21 IST" name="printNavBar_items" finished-at="2024-03-01T09:38:47 IST" depends-on-methods="testCases.TC_002_SelectItems.displayNavBar_items" duration-ms="26342" status="PASS">
+        <test-method signature="printNavBar_items()[pri:7, instance:testCases.TC_002_SelectItems@534a5a98]" started-at="2024-03-12T16:10:55 IST" name="printNavBar_items" finished-at="2024-03-12T16:10:55 IST" depends-on-methods="testCases.TC_002_SelectItems.displayNavBar_items" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_002_SelectItems.printNavBar_items()[pri:7, instance:testCases.TC_002_SelectItems@534a5a98] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_002_SelectItems.printNavBar_items()[pri:7, instance:testCases.TC_002_SelectItems@534a5a98] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printNavBar_items -->
